@@ -15,12 +15,7 @@ app = FastAPI()
 logging.basicConfig(level=logging.INFO)
 
 # Database connection settings
-DB_CONFIG = {
-    "host": "192.168.51.236",
-    "database": "postgres",
-    "user": "admin",
-    "password": "godspeed123"
-}
+
 
 # Threshold for contrast
 CONTRAST_THRESHOLD = 25
